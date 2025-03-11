@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #03363D;
+    color: #f8f9f9;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 110px;
+    background-color: #20B2AA;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+    font-size: 1.04rem;
+}
+
+main hr {
+    border: 0;
+    background: #20B2AA;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.left {
+    font-size: 35px;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+    align-items: center;
+}
+
+.firstsection > div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2.75rem;
+}
+
+.leftsection .buttons {
+    padding: 45px 2px;
+}
+
+.leftsection .btn {
+    padding: 12px;
+    background: #b3dbe1;
+    color: #03363D;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.leftsection .buttons .btn:hover {
+    background-color: #03363D;
+    color: #b3dbe1;
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 50px 0;
+}
+
+/* Text Colors */
+.purple {
+    color: #20B2AA;
+}
+
+.techP {
+    color: rgb(193, 186, 186);
+}
+
+.text_grey {
+    color: gray;
+}
+
+#element {
+    color: #20B2AA;
+}
+
+.secondSection {
+    max-width: 1550px;
+    margin: auto;
+    height: 700px;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+    padding-bottom: 30px;
+}
+
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: #ffffff;
+    margin: 0 150px;
+}
+
+.image-top {
+    width: 80px;
+    position: relative;
+    top: -80px;
+    left: -7px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 35px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 44px;
+    color: grey;
+    width: 150px;
+    font-size: 9px;
+}
+
+footer {
+    text-decoration: none;
+    background-color: #cff1e6;
+    color: #20B2AA;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer > div {
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer h3, .footer h4 {
+    color: #03363D;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin: 5px 0;
+}
+
+.footer ul li a {
+    color: #20B2AA;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #03363D;
+    font-weight: bold;
+}
+.email-design :hover{
+    font-weight: bold;
+    color: #03363D ;
+}
+.social-links a {
+    margin: 5px;
+    color: #20B2AA;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #03363D;
+    font-weight: bold;
+}
+
+.footerNewsletter input {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.footerNewsletter button {
+    background-color: #03363D;
+    color: #20B2A1;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.footerNewsletter button:hover {
+    background-color: #20B2A1;
+    color: #03363D;
+}
+
+.footer-rights {
+    border-top: 1px solid #03363D;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: #20B2AA;
+}
+
+.footer-rights a {
+    color: #20B2AA;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-rights a:hover {
+    color: #03363D;
+}
+
+.back-to-top {
+    display: inline-block;
+    margin-top: 10px;
+    color: #f1c40f;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.back-to-top:hover {
+    color: #ff6f61;
+}
+
